@@ -118,3 +118,20 @@ body
    font-weight: 700;
    color: #eee;
  }
+ /*--footer--*/
+.content-contact{
+	background : black;
+    padding:20px;
+
+}
+.contact-links li{
+	list-style: none;
+	display: inline-block;
+	font-size: 40px;
+}
+.content-contact .contact-links ul{
+	text-align: center;
+}
+.content-contact .contact-links li{
+	padding: 10px;
+}
