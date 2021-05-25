@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>CORONAVIRUS</title>
+    </head>
+    <body>
+      <!---<embed src="song/song1.mp3" autostarty="true" loop="true" volume="80" width="0" height="0">-->
+      <audio autoplay src="song/song1.mp3" loop="3"> </audio>
+      <header class="fixed-top">   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color" aria-label="Fifth navbar example">
+          <div class="container-fluid">
+            <a class="navbar-brand col-6 titulo" href="#">CORONAVIRUS</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="navbar-collapse collapse" id="menu" >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sintomas_tratamiento.html">SINTOMAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="sintomas_tratamiento.html#tratamientos" tabindex="-1" aria-disabled="true">TRATAMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="contactos.html" tabindex="-1" aria-disabled="true">CONTACTOS</a>
+                </li>
+                <!--<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>-->
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+      <section id="sintomas">
+        <div class="container">
+            <h1 class="text-center">SINTOMAS</h1>
+            <div class="row lightbox-gallery text-center">
+                <div class="col-md-4">
+                    <h6>TOS Y ESTORNUDOS</h6>
+                    <img src="img/sintomas/tos.png" data-image-hd="https://coronavirus.gob.mx/wp-content/uploads/elementor/thumbs/Mesa-de-trabajo-31-ook52s07dv6oxfof3lb068890bztg7wfsn1mc6hrno.png" alt="TOS // ESTORNUDOS">
+                </div>
+                <div class="col-md-4">
+                    <h6>OJOS ROJOS</h6>
+                    <img src="img/sintomas/ojos_rojos.png" alt="OJOS ROJOS">
+                </div>
+                <div class="col-md-4">
+                    <h6>FIEBRE</h6>
+                    <img src="img/sintomas/fiebre.png" alt="FIEBRE">
+                </div>
+                <div class="col-md-4">
+                    <h6>ESCURRIMIENTO NASAL</h6>
+                    <img src="img/sintomas/escurrimiento_nasal.png" alt="ESCURRIMIENTO NASAL">
+                </div>
+                <div class="col-md-4">
+                    <h6>DOLORES EN MUSCULOS Y ARTICULACIONES</h6>
+                    <img src="img/sintomas/dolor_muscular.png" alt="DOLORES EN MUSCULOS Y ARTICULACIONES">
+                </div>
+                <div class="col-md-4">
+                    <h6>DOLOR DE GARGANTA</h6>
+                    <img src="img/sintomas/dolor_garganta.png" alt="DOLOR DE GARGANTA">
+                </div>
+                <div class="col-md-4">
+                    <h6>DOLOR DE CABEZA</h6>
+                    <img src="img/sintomas/dolor_cabeza.png" alt="DOLOR DE CABEZA">
+                </div>
+                <div class="col-md-4">
+                    <h6>DIFICULTAD PARA RESPIRAR</h6>
+                    <img src="img/sintomas/dificultad_respirar.png" alt="DIFICULTAR PARA RESPIRAR(SINTOMA GRAVE)">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="tratamientos"> 
+          <div class="container">
+            <h1 class="text-center">TRATAMIENTOS</h1>
+            <div class="row">
+                <p>
+                    No existe medicamento que cure los coronavirus, solo para aliviar los síntomas que generan.
+
+                    El virus que causa COVID-19 es muy nuevo, y no hay vacuna.
+
+                    En la mayor parte de los casos, la enfermedad no es grave y el cuerpo la controla en alrededor de dos semanas.
+
+                    Si presentas síntomas compatibles con COVID-19 y tienes dificultad para respirar o perteneces a uno de los grupos de riesgo; entonces cúbrete boca y nariz con un tapabocas, una bufanda o un pañuelo y acude de inmediato al médico o a la clínica más cercana.
+
+                    Si no presentas síntomas, quédate en casa.
+
+                    Y recuerda: no debes automedicarte.
+                </p>
+            </div>
+          </div>
+      </section>
+      <script> 
+        $('.navbar-collapse ul li a').click(function() {
+        $('.nav-item:visible').click();
+        });
+      </script>
+      <script src="js/galery.min.js"></script>
+    </body>
+</html>
